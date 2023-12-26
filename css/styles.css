@@ -1,0 +1,37 @@
+body {
+  font-family: "Arial", sans-serif;
+}
+
+header,
+nav,
+main {
+  margin: 20px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+ul li {
+  display: inline;
+  margin-right: 10px;
+  list-style: none;
+}
+
+button {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+button:hover {
+  color: #555;
+}
+
+#section {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+}
